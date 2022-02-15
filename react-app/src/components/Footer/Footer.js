@@ -3,7 +3,7 @@ import styles from "./Footer.module.scss";
 const Footer = () => {
     return (
         <footer className={styles.footer}>
-            <h1>Kiernan McGuigan</h1>
+            <h3 className={styles.footerBrand}>Kiernan McGuigan</h3>
         </footer>
     );
 };
