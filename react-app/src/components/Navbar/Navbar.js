@@ -6,7 +6,8 @@ const Navbar = () => {
         <nav className={styles.navbar}>
             <div className={styles.navbarContent}>
                 <h1 className={styles.navbarHeader}>Kiernan McGuigan</h1>
-                <a href="#" className={styles.navbarLink}>resume</a>
+                <a href={require("../../assets/Kiernan_McGuigan_Resume.pdf")} target="blank_" className={styles.navbarLink}>Resume</a>
+                
                 {/* <ul className={styles.navbarList}>
                     <li className={styles.navbarLink}>Education</li>
                     <li className={styles.navbarLink}>Experience</li>

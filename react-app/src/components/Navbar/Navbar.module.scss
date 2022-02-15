@@ -9,10 +9,10 @@
 
 .navbarContent {
     display: flex;
-    justify-content: center;
-    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
     padding: 10px 10px;
-    row-gap: 5px;
     max-width: sizes.$lg;
     margin-left: auto;
     margin-right: auto;
@@ -20,31 +20,45 @@
 
 .navbarHeader {
     color: colors.$accent;
-}
-
-.navbarList {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-direction: row;
-    list-style: none;
+    font-size: 1.6rem;
 }
 
 .navbarLink {
     text-decoration: none;
     color: colors.$accent;
-}
-
-@media only screen and (min-width: sizes.$sm) {
-    .navbarContent {
-        justify-content: space-between;
-        flex-direction: row;
-    }
-    .navbarList {
-        column-gap: 35px;
-    }
+    font-size: 1.2rem;
 }
 
 
 // This is the code that was used if we had a number of nav links
 // in the future this code will be used
+
+// .navbarContent {
+//     display: flex;
+//     justify-content: center;
+//     flex-direction: column;
+//     padding: 10px 10px;
+//     row-gap: 5px;
+//     max-width: sizes.$lg;
+//     margin-left: auto;
+//     margin-right: auto;
+// }
+
+// .navbarList {
+//     display: flex;
+//     justify-content: space-between;
+//     align-items: center;
+//     flex-direction: row;
+//     list-style: none;
+// }
+
+// @media only screen and (min-width: sizes.$sm) {
+//     .navbarContent {
+//         justify-content: space-between;
+//         flex-direction: row;
+//     }
+//     .navbarList {
+//         column-gap: 35px;
+//     }
+// }
+
