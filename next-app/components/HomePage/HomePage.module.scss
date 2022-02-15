@@ -1,0 +1,9 @@
+@use "../styles/colors";
+@use "../styles/sizes";
+@use "../styles/mixins";
+
+.headshot {
+    margin: 10px;
+    border: 10px solid colors.$border;
+    border-radius: 10px;
+}

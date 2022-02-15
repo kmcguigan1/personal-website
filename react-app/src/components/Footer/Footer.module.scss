@@ -1,0 +1,8 @@
+@use "../../styles/colors";
+@use "../../styles/sizes";
+@use "../../styles/mixins";
+
+.footer {
+    width: 100%;
+    background-color: colors.$bg-off;
+}

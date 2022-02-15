@@ -1,0 +1,8 @@
+@use "./sizes";
+
+@mixin container {
+    width: 90%;
+    max-width: sizes.$lg;
+    margin-left: auto;
+    margin-right: auto;
+}

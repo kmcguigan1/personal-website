@@ -1,0 +1,14 @@
+// write global styles here
+// mixin will handle global classes
+// this is to select elements globally
+
+.app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+
+main {
+    flex: 1 1 auto;
+}
