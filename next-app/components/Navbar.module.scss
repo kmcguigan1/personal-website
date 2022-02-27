@@ -1,0 +1,46 @@
+@use "../styles/colors";
+@use "../styles/sizes";
+
+.navbar {
+    width: 100%;
+    z-index: 1;
+    position: sticky;
+}
+
+.navbarContent {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px 10px;
+    row-gap: 5px;
+    max-width: sizes.$lg;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.navbarHeader {
+    color: colors.$accent;
+}
+
+.navbarList {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    list-style: none;
+}
+
+.navbarLink {
+    text-decoration: none;
+    color: colors.$accent;
+}
+
+@media only screen and (min-width: sizes.$sm) {
+    .navbarContent {
+        justify-content: space-between;
+        flex-direction: row;
+    }
+    .navbarList {
+        column-gap: 35px;
+    }
+}
