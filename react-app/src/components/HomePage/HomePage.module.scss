@@ -16,6 +16,10 @@
     border-radius: 6px;
 }
 
+.textContainer {
+    max-width: 600px;
+}
+
 .textHeader {
     color: colors.$text;
     text-align: center;
@@ -29,7 +33,7 @@
     font-size: 1.05rem;
     padding-bottom: 15px;
     .highlightText {
-        font-weight: bold;
+        font-weight: 700;
         color: colors.$accent-light;
         font-size: 1.1rem;
     }
@@ -60,12 +64,47 @@
     }
 }
 
-@media only screen and (min-width: sizes.$lg) {
-    .heroSection {
-        flex-direction: row;
+@media only screen and (min-width: sizes.$md) {
+    .textHeader {
+        font-size: 2.25rem;
     }
 
+    .text {
+        font-size: 1.1rem;
+        .highlightText {
+            font-size: 1.15rem;
+        }
+    }
+}
+
+@media only screen and (min-width: sizes.$lg) {
+    .heroSection {
+        margin-top: 100px;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+        column-gap: 20px;
+    }
+    
+    .headshot {
+        height: 100%;
+        width: 375px;
+    }
+    
     .textHeader {
         text-align: left;
+        font-size: 2.5rem;
+    }
+
+    .text {
+        font-size: 1.2rem;
+        .highlightText {
+            font-size: 1.25rem;
+        }
+    }
+
+    .icon {
+        width: 60px;
+        height: 60px;
     }
 }
