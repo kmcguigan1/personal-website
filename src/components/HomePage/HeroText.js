@@ -7,20 +7,25 @@ const HeroText = () => {
 		<div className={styles.textContainer}>
 			<h1 className={styles.textHeader}> Welcome!</h1>
 			<p className={styles.text}>
-				My name is <span className={styles.highlightText}>Kiernan</span> and I'm a fourth year{" "}
-				<span className={styles.highlightText}>Software Engineering</span> student at the{" "}
-				<span className={styles.highlightText}>University of Calgary</span>. My key interests are in{" "}
-				<span className={styles.highlightText}>Machine Learning</span>,{" "}
-				<span className={styles.highlightText}>Data Science</span>, and I love learning about the different algorithms
-				that our fueling the rise of <span className={styles.highlightText}>Artificial Intelligence</span>.
+				My name is <span className={styles.highlightText}>Kiernan</span> and I'm currently pursuing my{" "}
+				<span className={styles.highlightText}>Masters</span> at the{" "} 
+				<span className={styles.highlightText}>University of Waterloo</span> in the{" "} 
+				<span className={styles.highlightText}>Vision Image Processing Lab</span>. 
+				My research focuses on long-range high-resolution spatio temporal forecasting with 
+				applications to sea ice concentration in the Canadian Arctic. However, on the side I also
+				enjoy working on sports analytics and with novel view sythesis techniques such as NeRF and Gaussian Splatting.
 			</p>
 			<p className={styles.text}>
-				I'm also currently working on my <span className={styles.highlightText}>Web Development</span>{" "}
-				skills, learning technologies such as <span className={styles.highlightText}>React</span> and{" "}
-				<span className={styles.highlightText}>SCSS</span> to develop websites like this one. I've also 
-				played around with technologies like <span className={styles.highlightText}>Express</span>{" "}
-				and <span className={styles.highlightText}>Mongo DB</span> to design the backend of some simple web
-				applications.
+				I completed my undergraduate degree in <span className={styles.highlightText}>Software Engineering</span> at the{" "}
+				<span className={styles.highlightText}>University of Calgary</span> and I enjoy practicing the skills I learned to
+				write readable, flexible, and deployable machine learning code. 
+			</p>
+			<p className={styles.text}>
+				While I predominantly write my code in{" "} <span className={styles.highlightText}>Python</span>
+				using tools like{" "} <span className={styles.highlightText}>PyTorch</span> and{" "} 
+				<span className={styles.highlightText}>Tensorflow</span>, I still try to spend time to keep up 
+				my{" "} <span className={styles.highlightText}>Java</span>,{" "} <span className={styles.highlightText}>C/C++</span>,
+				and{" "} <span className={styles.highlightText}>Web Development</span> skills as well.
 			</p>
 			<p className={styles.text}>
 				If you're interested in any of my work check me out on{" "}
@@ -29,7 +34,7 @@ const HeroText = () => {
 				<span className={styles.highlightText}>LinkedIn</span>, I'm always happy to meet new people in
 				the tech space!
 			</p>
-			<HeroIcons />
+			{/* <HeroIcons /> */}
 		</div>
 	);
 };
