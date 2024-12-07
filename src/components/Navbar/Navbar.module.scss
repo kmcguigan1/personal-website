@@ -13,7 +13,7 @@
     align-items: center;
     flex-direction: row;
     padding: 10px 10px;
-    // max-width: sizes.$lg;
+    max-width: sizes.$md;
     margin-left: auto;
     margin-right: auto;
 }
@@ -31,14 +31,14 @@
 
 @media only screen and (min-width: sizes.$lg) {
     .navbarContent {
-        padding: 15px 30px;
+        max-width: sizes.$lg;
     }
 
     .navbarHeader {
-        font-size: 2rem;
+        font-size: 2.1rem;
     }
     .navbarLink {
-        font-size: 1.4rem;
+        font-size: 1.7rem;
     }
 }
 
