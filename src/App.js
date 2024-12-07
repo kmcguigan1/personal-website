@@ -9,7 +9,6 @@ function App() {
 		<div className={styles.app}>
 			<Navbar />
 			<HomePage />
-			<Footer />
 		</div>
 	);
 }
